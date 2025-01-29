@@ -5,19 +5,18 @@
 }
 .whatsapp-clone{
     display: grid;
-    grid-template-columns:50px 400px calc(100% - 450px);
+    grid-template-columns: 60px 415px calc(100% - 475px);
 }
 .sidebar-icons{
     border-right: 0.2px solid rgb(165, 164, 164);
     background-color: rgb(255, 255, 255);
-    padding: 10px;
-
+    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .messeges{
-  
+    border: 0.3px solid gray;
 }
 .chats{
     
@@ -25,29 +24,32 @@
 .first-icon{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid rgb(126, 125, 125);
     padding-bottom: 10px;
+}
+.active{
+    background-color: rgb(212, 208, 208);
 }
 .sec-icon{
     padding-top: 10px;
     display: flex ; 
      flex-direction: column;
-        gap: 10px;
+        gap: 15px;
         align-items: center;
     
 }
 .last-icon{
     display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
         align-items: center; 
 
 }
 .first-icon i{
 font-size: 20px;
-color: rgb(77, 77, 77);
+color: rgb(126, 125, 125);
 border-radius: 25px;
     padding: 7px;
 
@@ -56,12 +58,12 @@ border-radius: 25px;
     border-radius: 25px;
     padding: 7px;
     font-size: 20px;
-    color:  rgb(77, 77, 77);
+    color: rgb(126, 125, 125);
 }
 .last-icon i{
     border-radius: 25px;
     padding: 7px;
-    color: rgb(77, 77, 77);
+    color: rgb(126, 125, 125);
     font-size: 20px;
 }
 i:hover{
@@ -72,8 +74,7 @@ i:hover{
     height: 120px;
     position: sticky;
     top: 0;
-    width: 383px;
-    padding: 8px;
+    padding: 15px 8px;
 }
 .chats-icon{
     display: flex;
@@ -97,8 +98,10 @@ i{
 }
 .input input{
     width: 100%;
-    background: #d7d7d7;
-    padding: 10px 5px;
+    background: #ebebeb;
+    padding: 10px 15px;
+    color: #6c6c6c;
+    font-size: 15px;
     border: none;
     border-radius: 7px;
 }
@@ -110,8 +113,8 @@ gap: 10px;
 }
 .paras-fixed-div p{
     padding: 5px 10px;
+    background: #ebebeb;
     border-radius: 20px;
-    background: #d7d7d7;
     color: rgb(77, 77, 77);
 }
 .paras-fixed-div p:hover{
@@ -123,7 +126,7 @@ a{
 .overflow-div{
     padding:10px;
     overflow: auto;
-    height: calc(100vh - 156px);
+    height: calc(100vh - 172px);
 }
 .overflow-div::-webkit-scrollbar{
     width: 5px;
@@ -132,7 +135,7 @@ a{
     background-color: rgb(219, 219, 219);
 }
 .overflow-div::-webkit-scrollbar-thumb{
-    background-color: gray;
+    background-color: rgb(170, 170, 170);
 }
 h6{
     background: #72fb72;
@@ -230,7 +233,7 @@ h6{
 width: 100%;
 }
 .box{
-background-color: #d7d7d7;
+background-color:white;
 width: fit-content;
 padding: 10px;
 border-radius: 12px;
@@ -239,7 +242,7 @@ margin-top: 20px;
 .text{
     display:flex;
     align-items: end;
-    max-width: 465px;
+    max-width: 444px;
 }
 text p{
     min-width: 120px;
@@ -250,12 +253,27 @@ text p{
     margin-left: 10px;
     min-width: 25px;
 }
+.text1{
+    display:flex;
+    align-items: end;
+    max-width: 710px;
+}
+text1 p{
+    min-width: 120px;
+}
+.text1 span{
+    font-size: 12px;
+    color: gray;
+    margin-left: 10px;
+    min-width: 25px;
+}
 .sec-chats-box{
-margin-top: 250px;
+margin-top: 310px;
 
 }
 .containers{
     display: flex;
+    padding: 20px 30px;
 }
 .containers2{
     width: 100%;
